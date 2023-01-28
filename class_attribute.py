@@ -20,9 +20,9 @@ user3=User("ahmettk","ahmet can","koca",35)
 user4=User("ahmetpk","ahmet can","koca",34)
 user5=User("ahmetpk","ahmet can","koca",34)
 user6=User("ahmetpk","ahmet can","koca",34)
-print(f" aktif kullanici sayisi : {User.active_users}")    
+print(f" active user  : {User.active_users}")    
 print(user2.logout())
 print(user1.logout())
-print(f" aktif kullanici sayisi : {User.active_users}")    
+print(f" active user : {User.active_users}")    
       
         
